@@ -19,7 +19,7 @@ ul {
 }
 
 #container {
-    background: #ede9cc;
+    background: #ede9cc url(../images/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -116,4 +116,72 @@ ul#navigation a:hover {
     width: 226px;
     height: 164px;
     float: right;
+}
+
+/* Content area settings */
+#main-area {
+    float: left;
+    width: 50%;
+    padding: 15px 0;
+    background: url(../images/bg-main-area.png) top left repeat-x;
+}
+
+#side-area {
+    float: right;
+    width: 50%;
+    padding: 20px 0;
+    background: url(../images/bg-side-area.png) top left repeat-x;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    background: #fff url(../images/bg-footer.png) repeat-x top;
+    color: #7d7640;
+}
+
+/* Text settings */
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Lateral settings */
+#benefits li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+
+#benefits li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+#benefits li a p {
+    color: #000;
+    font-size: 0.9em;
+}
+
+#benefits li a h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../images/ornament.png) no-repeat center right;
+}
+
+#benefits li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
 }
